@@ -11,6 +11,7 @@
 		E508E8FA2B71FC2F00FC110B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508E8F92B71FC2F00FC110B /* ContentView.swift */; };
 		E508E8FC2B71FC3300FC110B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E508E8FB2B71FC3300FC110B /* Assets.xcassets */; };
 		E508E8FF2B71FC3300FC110B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E508E8FE2B71FC3300FC110B /* Preview Assets.xcassets */; };
+		E508E9082B72245100FC110B /* TextField2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508E9072B72245100FC110B /* TextField2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E508E8F92B71FC2F00FC110B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E508E8FB2B71FC3300FC110B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E508E8FE2B71FC3300FC110B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E508E9072B72245100FC110B /* TextField2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				E508E8F92B71FC2F00FC110B /* ContentView.swift */,
 				E508E8FB2B71FC3300FC110B /* Assets.xcassets */,
 				E508E8FD2B71FC3300FC110B /* Preview Content */,
+				E508E9072B72245100FC110B /* TextField2.swift */,
 			);
 			path = SwiftUITextFieldSample;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E508E9082B72245100FC110B /* TextField2.swift in Sources */,
 				E508E8FA2B71FC2F00FC110B /* ContentView.swift in Sources */,
 				E508E8F82B71FC2F00FC110B /* SwiftUITextFieldSampleApp.swift in Sources */,
 			);
@@ -280,6 +284,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
